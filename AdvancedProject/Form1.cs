@@ -22,6 +22,8 @@ namespace AdvancedProject
         private void button1_Click(object sender, EventArgs e)
         {
 
+
+
             int shift = ((int)numericUpDown1.Value) % 26;
             String input = (textBox1.Text).ToLower();
             String output = "";
